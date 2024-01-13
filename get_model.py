@@ -25,7 +25,7 @@ torch._inductor.config.fx_graph_cache = True # Experimental feature to reduce co
 
 from sentencepiece import SentencePieceProcessor
 
-from model import Transformer
+from _model import Transformer
 from tp import maybe_init_dist
 
 

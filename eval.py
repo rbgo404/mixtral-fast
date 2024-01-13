@@ -28,7 +28,7 @@ import sys
 
 from sentencepiece import SentencePieceProcessor
 
-from model import LLaMA
+from _model import LLaMA
 
 lm_evaluation_harness_path = '/'.join(
     os.getcwd().split('/')[:-1] + ['lm-evaluation-harness'])

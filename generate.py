@@ -24,7 +24,7 @@ sys.path.append(str(wd))
 
 from sentencepiece import SentencePieceProcessor
 
-from model import Transformer
+from _model import Transformer
 from tp import maybe_init_dist
 
 

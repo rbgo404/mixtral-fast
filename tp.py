@@ -11,7 +11,7 @@ import torch.distributed as dist
 from torch import nn
 from torch.distributed import _functional_collectives as funcol
 
-from model import Attention, FeedForward, MOEFeedForward, Transformer
+from _model import Attention, FeedForward, MOEFeedForward, Transformer
 from quantize import WeightOnlyInt4Linear
 
 

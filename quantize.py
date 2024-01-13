@@ -16,7 +16,7 @@ try:
 except:
     pass
 
-from model import Transformer, ConditionalFeedForward
+from _model import Transformer, ConditionalFeedForward
 
 ##### Quantization Primitives ######
 
